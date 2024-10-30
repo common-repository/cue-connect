@@ -1,0 +1,22 @@
+.cue-section {
+    margin: 0 0 2em 0;
+    padding: 0;
+}
+
+.cue-row {
+    display:table;
+    vertical-align: top;
+    margin-left: -1em;
+    table-layout: fixed;
+}
+
+.cue-col {
+    display:table-cell;
+    vertical-align: top;
+    padding: 0 1em;
+}
+
+.cue-section label {
+    min-width:8em;
+    display:inline-block;
+}

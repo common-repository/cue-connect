@@ -1,0 +1,151 @@
+.cue-mylist-wrapper {
+  font-size: inherit !important;
+  font-weight: inherit;
+  font-family: 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+  line-height: 1.5em;
+  min-height: 600px;
+  max-width:1024px;
+  margin: 2em auto;
+  padding: 0 12px;
+  letter-spacing: 0.25px;
+}
+
+.cue-mylist-wrapper label {
+  font-size: inherit;
+  line-height: inherit;
+  font-weight: inherit;
+}
+
+.cue-mylist-wrapper iframe {
+  width: 100%;
+  min-height: 600px;
+  border:none;
+  outline:none;
+  display:block;
+  background:#fff;
+  overflow-y: auto;
+  margin:0;
+}
+
+.cue-mylist-wrapper p,
+.cue-mylist-wrapper ul, 
+.cue-mylist-wrapper ol, 
+.cue-mylist-wrapper h1, 
+.cue-mylist-wrapper h2, 
+.cue-mylist-wrapper h3,
+.cue-mylist-wrapper h4 {
+  margin: 0 0 16px 0;
+  line-height: inherit;
+}
+
+.cue-mylist-wrapper ul,
+.cue-mylist-wrapper ol {
+  list-style:inherit;
+  padding-left: 24px;
+  margin-left: 0;
+}
+
+#cue-wordpress-forms-container {
+  min-height: 600px;
+}
+
+#cue-external-footer {
+  width:100%;
+  height:auto;
+  overflow:hidden;
+  padding: 6px 0;
+  border-top: 1px solid #eee;
+  font-size: 12px;
+  font-family: sans-serif;
+}
+
+.cue-hidden {
+  display:none !important;
+}
+
+.cue-auth-and-info-container{
+  display: table;
+  width: 100%;
+  padding: 2em 0;
+}
+
+.cue-auth-container,
+.cue-info-container {
+  display: table-cell;
+  width: 50%;
+  text-align: left;
+  padding: 0 1em;
+}
+
+.cue-form-container{
+  width: 100%;
+  margin: auto;
+}
+
+.cue-links {
+  float:left;
+}
+
+.cue-links-right {
+  float:right;
+}
+
+.cue-form {
+  display:block;
+  clear:both;
+  margin: 0;
+}
+
+.cue-form-row {
+  width:100%;
+  clear:both;
+  margin-bottom: 1em;
+}
+
+.cue-form-row.req label:after{
+  content:"*";
+  color: #c30;
+}
+
+.cue-form-row input[type="text"],
+.cue-form-row input[type="email"],
+.cue-form-row input[type="password"] {
+  display:block;
+  width:100%;
+  max-width:320px;
+  clear:both;
+  border: 1px solid #ccc;
+  padding: .25em .5em;
+  line-height: inherit;
+  box-shadow:none;
+  margin:0;
+}
+
+.cue-form-row button,
+.cue-form-row input[type='button'],
+.cue-form-row input[type='submit'] {
+  line-height: 1.5em;
+  padding: .5em 1em;
+  border: none;
+  margin:0;
+  cursor:pointer;
+}
+
+.cue-form-notifications {
+  width: 100%;
+  clear:both;
+  overflow:hidden;
+}
+
+.cue-form-notifications p {
+  color: red;
+  font-size: .9em;
+}
+
+@media screen and (max-width: 798px){
+  .cue-auth-container,
+  .cue-info-container{
+    display: block;
+    width: 100%;
+  }
+}
